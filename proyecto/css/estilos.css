@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.mi_navbar{
+    background-color: rgb(118, 248, 150);
+    color: rgb(6, 120, 124);
+}
+.nav-link:hover{
+    color: rgb(6, 136, 60) !important;
+    
+}
+.hero-content{
+    background: url('/img/DJIACSUO55GQDHWHDB2DZ37JKY.avif') no-repeat center center/cover ;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 40px;
+}
+.intro{
+    font-size: 20px;
+    margin: 0 auto 10px;
+    margin-top: 70px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+footer{
+    background-color: green;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+}
+footer h3{
+margin: 0, 0, 10px;
+}
+
+.footer-bottom{
+    font-size: 14px;
+    color: rgb(126, 211, 135);
+}
+
+.container{
+    height: 530px;
+
+}
+
+.text-center{
+    margin-top: 65px;
+}
+
+.carrousel{
+    height: 500px;
+    object-fit: cover;
+}
+
+.container2{
+    height: 800px;
+}
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
